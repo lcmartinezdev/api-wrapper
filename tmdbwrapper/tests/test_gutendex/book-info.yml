@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: https://gutendex.com/books/1396
+  response:
+    body:
+      string: ''
+    headers:
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Thu, 11 Nov 2021 22:46:36 GMT
+      Keep-Alive:
+      - timeout=5, max=100
+      Location:
+      - /books/1396/
+      Server:
+      - Apache/2.4.18 (Ubuntu)
+      Vary:
+      - Origin
+    status:
+      code: 301
+      message: Moved Permanently
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: https://gutendex.com/books/1396/
+  response:
+    body:
+      string: '{"id":1396,"title":"Rienzi, the Last of the Roman Tribunes","authors":[{"name":"Lytton,
+        Edward Bulwer Lytton, Baron","birth_year":1803,"death_year":1873}],"translators":[],"subjects":["Biographical
+        fiction","Rienzo, Cola di, -1354 -- Fiction"],"bookshelves":["Historical Fiction"],"languages":["en"],"copyright":false,"media_type":"Text","formats":{"application/x-mobipocket-ebook":"https://www.gutenberg.org/ebooks/1396.kindle.images","text/plain;
+        charset=utf-8":"https://www.gutenberg.org/files/1396/1396-0.txt","application/epub+zip":"https://www.gutenberg.org/ebooks/1396.epub.images","application/rdf+xml":"https://www.gutenberg.org/ebooks/1396.rdf","application/zip":"https://www.gutenberg.org/files/1396/1396-0.zip","text/plain;
+        charset=us-ascii":"https://www.gutenberg.org/files/1396/1396.txt","image/jpeg":"https://www.gutenberg.org/cache/epub/1396/pg1396.cover.small.jpg","text/html":"https://www.gutenberg.org/ebooks/1396.html.images","text/html;
+        charset=utf-8":"https://www.gutenberg.org/files/1396/1396-h.zip"},"download_count":53}'
+    headers:
+      Allow:
+      - GET, PUT, PATCH, DELETE, HEAD, OPTIONS
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '1044'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 11 Nov 2021 22:46:37 GMT
+      Keep-Alive:
+      - timeout=5, max=99
+      Server:
+      - Apache/2.4.18 (Ubuntu)
+      Vary:
+      - Origin,Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1
